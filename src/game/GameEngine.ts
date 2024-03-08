@@ -21,7 +21,7 @@ export type Nullable<T> = T | undefined | null;
 export class GameConstants {
     static readonly MaxLevel = 10;
     
-    static LevelConfigPath(level: number) { return "/assets/config/level-" + level + ".json";}; 
+    static LevelConfigPath(level: number) { return "../assets/config/level-" + level + ".json";}; 
 }
 
 export class GameEngine {
